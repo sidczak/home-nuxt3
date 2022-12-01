@@ -1,0 +1,10 @@
+@mixin text-variant($colors) {
+	@each $name, $val in $colors {
+		.text {
+			&-#{$name} {
+				color: $val !important;
+			}
+		}
+	}
+}
+@include text-variant($theme-colors);
