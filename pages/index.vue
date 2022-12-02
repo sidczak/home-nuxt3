@@ -2,6 +2,10 @@
   <div>
     <h1>Welcome to the homepage {{ $t("welcome") }} {{ $t("pages.about") }}</h1>
     <AppAlert> This is an auto-imported component </AppAlert>
+    <font-awesome-icon icon="fa-solid fa-user-secret" />
+    <font-awesome-icon icon="fa-solid fa-user" />
+    <font-awesome-icon icon="fa-brands fa-symfony" />
+    <font-awesome-icon icon="fa-regular fa-user" />
     <!-- <div v-if="pending">Lodaing...</div>
     <div v-else>river: *{{ river.title }}*</div> -->
 
